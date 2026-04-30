@@ -26,7 +26,6 @@
     "moment-timezone": "^0.6.0",
     "mongodb": "^5.7.0",
     "fluent-ffmpeg": "^2.1.2",
-    "@xaviabot/fb-downloader": "^1.0.14",
     "@ffmpeg-installer/ffmpeg": "latest"
   },
   "overrides": {
