@@ -113,9 +113,9 @@ cmd({
   alias: ["sinhalasub","films","mv"],
   react: "🎞️",
   desc: "Search and Download movies from Sinhalasub.lk",
-  category: "MOVIE",
+  category: "download",
   filename: __filename
-}, async (ishan, mek, m, { from, q, sender, reply }) => {
+}, async (conn, mek, m, { from, q, sender, reply }) => {
   if (!q) return reply(`*🎥 Movie Search Plugin*\nUsage: movie_name\nExample: movie avengers`);
   reply("🔍 *𝚂𝙴𝙰𝚁𝙲𝙷𝙸𝙽𝙶  𝚈𝙾𝚄𝚁 𝙼𝙾𝚅𝙸𝙴*");
   const searchResults = await searchMovies(q);
@@ -131,8 +131,8 @@ cmd({
 
 cmd({
   filter: (text, { sender }) => pendingSearch[sender] && !isNaN(text) && parseInt(text) > 0 && parseInt(text) <= pendingSearch[sender].results.length
-}, async (ishan, mek, m, { body, sender, reply, from }) => {
-  await ishan.sendMessage(from, { react: { text: "✅", key: m.key } });
+}, async (conn, mek, m, { body, sender, reply, from }) => {
+  await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
   const index = parseInt(body.trim()) - 1;
   const selected = pendingSearch[sender].results[index];
   delete pendingSearch[sender];
@@ -142,9 +142,9 @@ cmd({
   msg += `*🎭 Genres:* ${metadata.genres.join(", ")}\n*🎥 Directors:* ${metadata.directors.join(", ")}\n*🌟 Stars:* ${metadata.stars.slice(0,5).join(", ")}${metadata.stars.length>5?"...":""}\n\n`;
   msg += "*🔗 Fetching download links, please wait...*";
   if (metadata.thumbnail) {
-    await ishan.sendMessage(from, { image: { url: metadata.thumbnail }, caption: msg }, { quoted: mek });
+    await conn.sendMessage(from, { image: { url: metadata.thumbnail }, caption: msg }, { quoted: mek });
   } else {
-    await ishan.sendMessage(from, { text: msg }, { quoted: mek });
+    await conn.sendMessage(from, { text: msg }, { quoted: mek });
   }
   const downloadLinks = await getPixeldrainLinks(selected.movieUrl);
   if (!downloadLinks.length) return reply("*❌ No download links found (<2GB)!*");
@@ -152,13 +152,13 @@ cmd({
   let qualityMsg = "*📥 Available Qualities (Max 2GB):*\n";
   downloadLinks.forEach((d,i) => qualityMsg += `*${i+1}.* ${d.quality} - ${d.size}\n`);
   qualityMsg += `\n*Reply with quality number to receive the movie as a document.*`;
-  await ishan.sendMessage(from, { text: qualityMsg }, { quoted: mek });
+  await conn.sendMessage(from, { text: qualityMsg }, { quoted: mek });
 });
 
 cmd({
   filter: (text, { sender }) => pendingQuality[sender] && !isNaN(text) && parseInt(text) > 0 && parseInt(text) <= pendingQuality[sender].movie.downloadLinks.length
-}, async (ishan, mek, m, { body, sender, reply, from }) => {
-  await ishan.sendMessage(from, { react: { text: "✅", key: m.key } });
+}, async (conn, mek, m, { body, sender, reply, from }) => {
+  await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
   const index = parseInt(body.trim()) - 1;
   const { movie } = pendingQuality[sender];
   delete pendingQuality[sender];
@@ -169,7 +169,7 @@ cmd({
 📦 File is being prepared as a document.`);
   try {
     const directUrl = getDirectPixeldrainUrl(selectedLink.link);
-    await ishan.sendMessage(from, {
+    await conn.sendMessage(from, {
       document: { url: directUrl },
       mimetype: "video/mp4",
       fileName: `${movie.metadata.title.substring(0,50)} - ${selectedLink.quality}.mp4`.replace(/[^\w\s.-]/gi,''),
