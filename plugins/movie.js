@@ -146,7 +146,7 @@ cmd({
   alias:    ["sinhalasub", "films", "mv"],
   react:    "🎞️",
   desc:     "Sinhalasub.lk වෙතින් චිත්‍රපට සොයයි / Download movies from Sinhalasub.lk",
-  category: "DOWNLOAD",
+  category: "download",
   filename: __filename,
 }, async (conn, mek, _m, { from, q, sender, reply }) => {
 
