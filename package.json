@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "baileys": "npm:baileys-xdk",
     "libsignal": "^2.0.1",
     "express": "^4.18.2",
     "fs-extra": "^11.2.0",
