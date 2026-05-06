@@ -167,7 +167,7 @@ cmd({
 cmd({
   on:       "body",
   desc:     "Movie selection handler (internal)",
-  category: "MOVIE",
+  category: "download",
   dontAddCommandList: true,
   filename: __filename
 }, async (conn, mek, m, { from, body, sender }) => {
