@@ -16,7 +16,7 @@ module.exports = {
     OWNER_REACT:process.env.OWNER_REACT || 'true',
     AUTO_REPLY:process.env.AUTO_REPLY || 'true',
     AUTO_AI: process.env.AUTO_AI || 'true',
-    AUTO_VIEW_STATUS: process.env.AUTO_VIEW_STATUS || 'true',
+    AUTO_VIEW_STATUS: process.env.AUTO_VIEW_STATUS || 'false',
     AUTO_LIKE_STATUS: process.env.AUTO_LIKE_STATUS || 'true',
     AUTO_RECORDING: process.env.AUTO_RECORDING || 'true',
     WORK_TYPE: process.env.WORK_TYPE || 'private',
