@@ -11,7 +11,7 @@ module.exports = {
     PREFIX: process.env.PREFIX || '.',
     BUTTON: process.env.BUTTON || 'true',
     MAX_RETRIES: process.env.MAX_RETRIES || '5',
-    ADMIN_LIST_PATH: process.env.ADMIN_LIST_PATH || '94704227534',
+    ADMIN_LIST_PATH: process.env.ADMIN_LIST_PATH || '94781332957',
 
     OWNER_REACT:process.env.OWNER_REACT || 'true',
     AUTO_REPLY:process.env.AUTO_REPLY || 'true',
@@ -35,8 +35,8 @@ module.exports = {
 
     BOT_NAME: process.env.BOT_NAME || '*Sʜᴀʟᴀ Mᴅ ᴮᴱᵀᴬ*',
     OWNER_NAME: process.env.OWNER_NAME || 'ɴᴇᴛʜᴍɪᴋᴀ ᴋᴀᴜꜱʜᴀʟʏᴀ',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || '94704227534',
-    OWNER_NUMBERS: process.env.OWNER_NUMBERS || '94704227534,94787072548',
+    OWNER_NUMBER: process.env.OWNER_NUMBER || '94781332957',
+    OWNER_NUMBERS: process.env.OWNER_NUMBERS || '94781332957,94787072548',
     SUDO_NUMBERS: process.env.SUDO_NUMBERS || '94741245331',
     BOT_VERSION: process.env.BOT_VERSION || '1.0.0 Pro',
     BOT_FOOTER: process.env.FOOTER || '*● ꜱʜᴀʟᴀ-ᴍᴅ ʙᴇᴛᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴋᴀᴜꜱʜᴀʟʏᴀ ●*',
