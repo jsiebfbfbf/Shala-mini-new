@@ -29,7 +29,7 @@ module.exports = {
 
     IMAGE_PATH: process.env.IMAGE_PATH || 'https://raw.githubusercontent.com/Nethmika-LK/Shala-MD-Database/refs/heads/main/image/Alive.jpg',
     CHANNEL_LINK: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VagCogPGufJ3kZWjsW3A',
-    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://chat.whatsapp.com/F66x2yGi3V2DhUAllnTihZ?mode=gi_t',
+    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://chat.whatsapp.com/HZTNVop0ACP1o7876bUH1g',
 
     OTP_EXPIRY: process.env.OTP_EXPIRY || '300000',
 
