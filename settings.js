@@ -23,7 +23,7 @@ module.exports = {
     LANG: process.env.LANG || 'EN',
 
     NEWSLETTER_MESSAGE_ID: process.env.NEWSLETTER_MESSAGE_ID || '428',
-    NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363322195409882@newsletter',
+    NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363425696893542@newsletter',
     
     AUTO_LIKE_EMOJI: process.env.AUTO_LIKE_EMOJI ? JSON.parse(process.env.AUTO_LIKE_EMOJI) : ['❤️','🩷','🧡','💛','💚','💙','🩵','💜','🖤','🩶','🤍','💗'],
 
