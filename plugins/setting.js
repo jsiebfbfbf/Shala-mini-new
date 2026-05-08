@@ -82,8 +82,8 @@ async (conn, mek, m, { from, isOwner, senderNumber, botNumber, reply, config: cf
             {
                 title: "🤖 AUTO FEATURES",
                 rows: [
-                    { header: "Auto View Status ▸ ON",  title: "❄️ ➤ Auto View Status ▸ ON",  description: "Automatically view statuses",  id: `${prefix}setautoview on`    },
-                    { header: "Auto View Status ▸ OFF", title: "❄️ ➤ Auto View Status ▸ OFF", description: "Stop auto viewing statuses",   id: `${prefix}setautoview off`   },
+                    { header: "Auto View Status ▸ OFF",  title: "❄️ ➤ Auto View Status ▸ OFF",  description: "Automatically view statuses",  id: `${prefix}setautoview off`    },
+                    { header: "Auto View Status ▸ ON", title: "❄️ ➤ Auto View Status ▸ ON", description: "Stop auto viewing statuses",   id: `${prefix}setautoview on`   },
                     { header: "Auto Like Status ▸ ON",  title: "❄️ ➤ Auto Like Status ▸ ON",  description: "Auto react to statuses",       id: `${prefix}setautolike on`    },
                     { header: "Auto Like Status ▸ OFF", title: "❄️ ➤ Auto Like Status ▸ OFF", description: "Stop auto reacting statuses",  id: `${prefix}setautolike off`   },
                     { header: "Auto Recording ▸ ON",    title: "❄️ ➤ Auto Recording ▸ ON",    description: "Show recording indicator",     id: `${prefix}setautorec on`     },
