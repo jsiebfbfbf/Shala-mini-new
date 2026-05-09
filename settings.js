@@ -5,8 +5,8 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-    MONGO_URI: process.env.MONGO_URI || 'mongodb+srv://ishanccntxpr_db_user:k1gvugvb5l0ONP88@cluster0.ltwn3yv.mongodb.net/?appName=Cluster0',
-    MONGO_DB: process.env.MONGO_DB || 'ishanxkavyaxmdk',
+    MONGO_URI: process.env.MONGO_URI || 'mongodb+srv://dtz_dula:dtz_nova_x_md@cluster0.evuexjr.mongodb.net/?appName=Cluster0',
+    MONGO_DB: process.env.MONGO_DB || 'AYESH_DATE',
     
     PREFIX: process.env.PREFIX || '.',
     BUTTON: process.env.BUTTON || 'true',
