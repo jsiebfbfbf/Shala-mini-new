@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 
     MONGO_URI: process.env.MONGO_URI || 'mongodb+srv://shalabot:shalabot2006@cluster0.4sfrjeh.mongodb.net/',
-    MONGO_DB: process.env.MONGO_DB || 'xjjjuujxyxyxwhdj',
+    MONGO_DB: process.env.MONGO_DB || 'ishan',
     
     PREFIX: process.env.PREFIX || '.',
     BUTTON: process.env.BUTTON || 'true',
