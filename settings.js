@@ -5,8 +5,8 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-    MONGO_URI: process.env.MONGO_URI || 'mongodb+srv://shalabot:shalabot2006@cluster0.4sfrjeh.mongodb.net/',
-    MONGO_DB: process.env.MONGO_DB || 'xjjjuujxyxyxwhdj',
+    MONGO_URI: process.env.MONGO_URI || 'mongodb+srv://ishanccntxpr_db_user:k1gvugvb5l0ONP88@cluster0.ltwn3yv.mongodb.net/',
+    MONGO_DB: process.env.MONGO_DB || 'kavyalove',
     
     PREFIX: process.env.PREFIX || '.',
     BUTTON: process.env.BUTTON || 'true',
@@ -23,13 +23,13 @@ module.exports = {
     LANG: process.env.LANG || 'EN',
 
     NEWSLETTER_MESSAGE_ID: process.env.NEWSLETTER_MESSAGE_ID || '428',
-    NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363322195409882@newsletter',
+    NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363425696893542@newsletter',
     
     AUTO_LIKE_EMOJI: process.env.AUTO_LIKE_EMOJI ? JSON.parse(process.env.AUTO_LIKE_EMOJI) : ['❤️','🩷','🧡','💛','💚','💙','🩵','💜','🖤','🩶','🤍','💗'],
 
     IMAGE_PATH: process.env.IMAGE_PATH || 'https://raw.githubusercontent.com/Nethmika-LK/Shala-MD-Database/refs/heads/main/image/Alive.jpg',
     CHANNEL_LINK: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VagCogPGufJ3kZWjsW3A',
-    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://chat.whatsapp.com/F66x2yGi3V2DhUAllnTihZ?mode=gi_t',
+    GROUP_INVITE_LINK: process.env.GROUP_INVITE_LINK || 'https://chat.whatsapp.com/HZTNVop0ACP1o7876bUH1g',
 
     OTP_EXPIRY: process.env.OTP_EXPIRY || '300000',
 
