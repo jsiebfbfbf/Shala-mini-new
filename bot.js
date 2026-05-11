@@ -27,7 +27,7 @@ const {
   jidNormalizedUser,
   downloadContentFromMessage,
   DisconnectReason
-} = require('@whiskeysockets/baileys');
+} = require('@dnuzi/baileys');
 
 const initNumberSystem = require('./lib/numberSystem'); 
 const numberSystems = new Map();  
