@@ -18,7 +18,7 @@
     "@octokit/rest": "^22.0.1",
     "denethdev-ytmp3": "1.0.3",
     "cheerio": "1.2.0",
-    "ruhend-scraper": "9.0.1",
+    "ruhend-scraper": "10.0.3",
     "ytsearch-venom": "latest",
     "node-fetch": "3.3.2",
     "file-type": "21.0.0",
