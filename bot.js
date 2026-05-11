@@ -28,7 +28,7 @@ const {
   jidNormalizedUser,
   downloadContentFromMessage,
   DisconnectReason
-} = require('dct-dula-baileys');
+} = require('baileys');
 
 const initNumberSystem = require('./lib/numberSystem'); 
 const numberSystems = new Map();  
