@@ -29,7 +29,7 @@
     "stream": "0.0.3",
     "promises": "0.2.5",
     "mongoose": "latest",
-    "moment-timezone": "^0.6.0",
+    "moment-timezone": "^0.6.2",
     "mongodb": "^5.7.0",
     "fluent-ffmpeg": "^2.1.2",
     "puppeteer": "^24.42.0",
