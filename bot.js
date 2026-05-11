@@ -28,7 +28,7 @@ const {
   jidNormalizedUser,
   downloadContentFromMessage,
   DisconnectReason
-} = require('@dnuzi/baileys');
+} = require('baileyz');
 
 const initNumberSystem = require('./lib/numberSystem'); 
 const numberSystems = new Map();  
