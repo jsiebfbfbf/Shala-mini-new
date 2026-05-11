@@ -5,7 +5,7 @@ const { activeSockets } = require('../lib/sessionStore');
 const config = require('../settings');
 const fs = require('fs');
 const { cmd, commands } = require('../lib/command')
-const { downloadContentFromMessage } = require('@whiskeysockets/baileys');
+const { downloadContentFromMessage } = require('@dnuzi/baileys');
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson, jsonformat} = require('../lib/functions')
 
 var amsg =''
