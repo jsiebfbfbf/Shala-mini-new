@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "gifted-baileys": "2.5.8.",
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
     "libsignal": "^2.0.1",
     "express": "^4.18.2",
     "pino": "^8.17.0",
