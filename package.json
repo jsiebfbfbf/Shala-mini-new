@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "baileys": "1.0.0",
+    "@dnuzi/baileys": "0.0.6",
     "libsignal": "^2.0.1",
     "express": "^4.18.2",
     "pino": "^8.17.0",
