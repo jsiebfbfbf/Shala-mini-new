@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:dct-dev-private-baileys",
+    "@whiskeysockets/baileys": "github:DAUDY17/Dml-Baileys1.git",
     "libsignal": "^2.0.1",
     "express": "^4.18.2",
     "pino": "^8.17.0",
