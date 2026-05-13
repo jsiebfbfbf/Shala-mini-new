@@ -8,12 +8,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@dnuzi/baileys": "latest",
+    "@dnuzi/baileys": "0.0.6",
     "libsignal": "^2.0.1",
     "express": "^4.18.2",
     "pino": "^8.17.0",
-    "jimp": "^0.22.12",
-    "sharp": "0.34.5",
+    "jimp": "^0.16.1",
+    "sharp": "^0.34.5",
     "@octokit/rest": "^20.0.2",
     "denethdev-ytmp3": "1.0.3",
     "cheerio": "1.2.0",
