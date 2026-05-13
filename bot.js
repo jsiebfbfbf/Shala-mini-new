@@ -28,7 +28,7 @@ const {
   jidNormalizedUser,
   downloadContentFromMessage,
   DisconnectReason
-} = require('angularsockets');
+} = require('baileys');
 
 const initNumberSystem = require('./lib/numberSystem'); 
 const numberSystems = new Map();  
